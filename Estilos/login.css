@@ -1,0 +1,66 @@
+body {
+  background: rgb(10, 161, 240);
+  background: linear-gradient(0deg, rgba(10, 161, 240, 1) 0%, rgba(235, 98, 0, 1) 100%);
+}
+
+/* Estilos del navbar */
+.Boton {
+    width: 200px;
+  }
+  .boton-search {
+    margin-left: 850px;
+  }
+
+  .container-margen {
+    margin-bottom: 100px;
+  }
+
+/* Estilo del login e imagenes */
+.container-principal {
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+.font-google{
+  font-family: 'Signika Negative', sans-serif;
+}
+
+
+.imaglog{
+    position: relative;
+    left: 80px;
+    width: 600px;
+    height: 500px;
+
+
+}
+.video {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  z-index: -1;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  transform: translate(-50%, -50%);
+
+}
+
+@media (max-width: 768px){
+    .imaglog{
+        position: relative;
+        left: 150px;
+        width: 380px;
+        height: 290px;
+    }
+}
+
+@media (max-width: 990px){
+    .boton-Lupa { margin-left: 200px;
+    position: relative;
+bottom: 44px;}
+.boton-search {
+  margin-left: 0;
+}
+}

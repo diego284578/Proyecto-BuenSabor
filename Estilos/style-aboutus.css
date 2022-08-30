@@ -1,0 +1,129 @@
+ body {
+
+    background: rgb(10, 161, 240);
+    background: linear-gradient(0deg, rgba(10, 161, 240, 1) 0%, rgba(235, 98, 0, 1) 100%);
+  }
+h2 {
+    text-align: center;
+}
+.boton-search {
+    margin-left: 850px;
+  }
+.main-margen{
+    margin-top: 150px;
+    margin-left: 20px;
+}
+/* Padding al contenido de presentacion */
+.col-lg-6{
+    padding: 2px;
+    
+}
+/* Imagenes de presentacion */
+.col-lg-6 img {
+    display: block;
+    margin: 2vh auto;
+}
+.col-lg-6-2 img {
+    display: block;
+    margin: 2vh auto;
+}
+/* Texto que describe a los integrantes */
+.col-lg-6 p {
+    margin-top: 2vh;
+    text-align: center;
+}
+.col-lg-6-2 p {
+    margin-top: 2vh;
+    text-align: center;
+}
+/* estilo del navbar */
+.nav-link:hover {
+    border-bottom: 2px solid white;
+  }
+  
+  #img-1 {
+    height: 55px;
+    width: 55px;
+  }
+  
+  .nav-link:hover {
+    border-bottom: 2px solid white;
+  }
+  
+  .Boton {
+    width: 200px;
+  }
+  
+  .boton-search {
+    margin-left: 850px;
+  }
+  .font-title{
+    font-family: 'Signika Negative', sans-serif;
+    font-size: 50px;
+    text-decoration-line: underline;
+  }
+  .font-google{
+    font-family: 'Signika Negative', sans-serif;
+  }
+/* final del navbar */
+
+/* Iconos de Twitter, Instagram, Facebook y git */
+.iconos {
+    display: flex;
+    justify-content: center;
+    letter-spacing: 4vh;
+    margin-left: 4vh;
+}
+.iconos a {
+    color: #000;
+}
+/* Texto "acerca de nosotros" */
+.container p {
+    font-size: 20px;
+    margin: 2vh;
+}
+/* Contenido del footer */
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    height: 10vh;
+    margin-top: 5vh;
+}
+.footer h4 {
+    margin-left: 5vh;
+    color: #fff;
+}
+.animate__backInLeft{
+    display: inline-block;
+    margin: 0 0.5rem;
+    animation: bounce; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 4s; /* don't forget to set a duration! */
+  }
+/* video prueba */
+.video {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    z-index: -1;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    transform: translate(-50%, -50%);
+  
+  }
+  @media (max-width: 990px) {
+    /* media queris navbar */
+    .boton-Lupa {
+      margin-left: 200px;
+      position: relative;
+      bottom: 44px;
+    }
+  
+    .boton-search {
+      margin-left: 0;
+    }
+    /* termina el media queris del navbar */
+}

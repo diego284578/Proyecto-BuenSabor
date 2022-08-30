@@ -1,0 +1,924 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="stylesheet" href="Estilos/estyle.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com/%22%3E <link rel=" preconnect"
+    href="https://fonts.gstatic.com/" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300&display=swap" rel="stylesheet">
+  <title>Buen Sabor</title>
+</head>
+
+<body>
+  <!-- ////////Aqui empieza el Header///////// -->
+  <header>
+    <nav class="navbar fixed-top navbar-expand-lg bg-light navbar navbar-dark bg-dark position-fixed bg-opacity-75" data-aos="fade-down-left
+    "
+     >
+      <div class="container-fluid">
+        <a class="navbar-brand text-center" href="index.html"> <img src="/logo.png" width="105px" height="50px" alt="">
+          <h6>Buen Sabor</h6>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <div id="navbarNavAltMarkup py-2">
+            <div class="navbar-nav my-2">
+              <!-- <a class="nav-link" href="index.html">Buen Sabor</a> -->
+              <a class="nav-link" href="login.html">Login</a>
+              <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#miModal">Suscribirse</a>
+              <a class="nav-link" href="About Us.html">Nosotros</a>
+              <a class="nav-link" href="galeriafotos.html">Galeria</a>
+              <a class="nav-link" href="#contacto-footer">Contacto</a>
+              <li class="nav-item dropdown ">
+                <a class="nav-link dropdown-toggle text-grey" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Categorias
+                </a>
+                <ul class="dropdown-menu">
+                  <a class="dropdown-item" href="#Nacional">Comidas-Nacional</a>
+                  <a class="dropdown-item" href="#internacionales">Comidas-Internacional</a>
+                  <a class="dropdown-item" href="#contact">Blog-Comentarios</a>
+                </ul>
+              </li>
+            </div>
+          </div>
+          <form class="d-flex Boton boton-search" role="search">
+            <input class="form-control me-2 " type="search" placeholder="Search" aria-label="Search">
+          </form>
+          <button class="btn btn-lg bg-dark boton-Lupa bg-opacity-10 " type="submit">🔎
+          </button>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- ////////Aqui empieza el Main///////// -->
+  <main class="text-black">
+    <!-- carrusel -->
+    <div id="carouselExampleDark" class="carousel carousel-dark slide h-75" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active h-75" data-bs-interval="5000">
+          <img src="img/pastas italia.jpg" class="carruselimg" alt="..." />
+        </div>
+        <div class="carousel-item" data-bs-interval="20000">
+          <img src="img/empanada.png" class="carruselimg" alt="..." />
+
+        </div>
+        <div class="carousel-item">
+          <img src="img/cazuela de mariscos españa.jpg" class="carruselimg" alt="..." />
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- Main content -->
+    <section class=" row container-fluid">
+      <!-- Columna de comidas -->
+      <div class="mt-5 col-lg-10 col-12">
+        <!-- introduccion al blog -->
+        <div class="container">
+          <div class="container text-center">
+            <h3 class="font-title" data-aos="fade-right" data-aos-duration="1000">Buen Sabor</h3>
+            <p class="letra-google lh-lg" data-aos="fade-right" data-aos-duration="1000">Buen sabor es la comunidad de Viajeros y
+              cocineros del país y del mundo.
+              Cuenta con más de 200 miembros, todos reconocidos instagramers dentro del rubro de gastronómicos de la
+              República Argentina y el mundo.
+
+              Su cuenta de Instagram @buensaborportodos creció de forma vertiginosa y en poco tiempo logró posicionarse
+              entre una de las mejores en su rubro.
+              La comunidad Buen Sabor tiene como finalidad principal difundir y fomentar el turismo y la gastronomía
+              nacional e internacional tratando de incentivar por diferentes medios, tanto a los habitantes de nuestro
+              país como a todas aquellas personas que provengan del exterior, a que recorran y disfruten de la enorme
+              diversidad que ofrece nuestro país y el mundo con las diferentes delicias gastronómicas.
+
+              Desde nuestra cuenta de Instagram hemos realizado una gran cantidad de vivos con diferentes secretarías de
+              turismo de todo el país, las cuales fueron invitadas a participar de este proyecto de la web de Buen
+              sabor, recibiendo de las mismas un 100% de apoyo a dicho proyecto.
+              Esta página web apunta fundamentalmente a que el viajero tenga la posibilidad de informarse antes de
+              emprender su viaje, con información, restaurantes, datos y descripciones de más de 130 ciudades de todo el
+              país y el exterior tanto en calidad y precios.
+
+              En la misma los integrantes de nuestra comunidad irán dejando reseñas, tips, anécdotas y todo aquello que
+              pueda servirle a ustedes a la hora de agarrar la ruta o tomar un bus o un avión para conocer alguno de
+              nuestros increíbles destinos gastronómicos y personas de nuestro país visitar los increíbles lugares y
+              sabores que nos ofrece nuestro hermoso planeta.
+
+              Bienvenidos a las página web Buen sabor.</p>
+          </div>
+          <!-- columna doble-->
+          <div class="row text-center" data-aos="fade-right" data-aos-duration="1000">
+            <div class="col-lg-6">
+              <img src="/image.jpg/ARG.jpg" class="bd-placeholder-img rounded-circle" width="140" height="140" alt="">
+
+              <h2 class="font-google">Nacional</h2>
+              <p class="letra-google lh-lg">La cocina Argentina es esencialmente una cocina calida y acojedora, que condensa todo los aromas, todos los sabores y todos los matices de la sabiduria encerrada en su cocina. No es nada uniforme, porque a la vieja herencia hispano-indígena se agregaron los valiosos aportes de la inmigración.</p>
+            </div>
+            <div class="col-lg-6">
+              <img src="/image.jpg/tierra-removebg-preview.png" class="bd-placeholder-img rounded-circle" width="140" height="140" alt="">
+
+              <h2 class="font-google">Internacional</h2>
+              <p class="letra-google lh-lg">Algunos de los paises que se destacan por su gastronomia
+                son Perú, Mexico, Francia, España, Italia, Japon.
+                Sin embargo, en este blog te contaremos como hacer
+                los platos mas emblematicos de cada pais y algunos
+                comentarios sobre los mismos. Esperamos que te gusten.</p>
+            </div>
+
+          </div>
+
+
+          <!-- Aqui empieza La seccion de comidas Internacionales-->
+          <hr class="division-lineas">
+          <div class="row  overflow-hidden flex-md-row mb-4 h-md-250" id="internacionales">
+            <div class="p-4 ">
+              <a href="" class="text-decoration-none text-dark text-center fst-italic ">
+                <h3 class="font-google fs-1" data-aos="fade-right" data-aos-duration="1000">Comidas Internacionales</h3>
+              </a>
+            </div>
+          </div>
+
+          <!-- primera tarjeta de comida internacional -->
+
+          <div class="row text-center">
+            <div class="col-md-7">
+              <h2 class="Title-text-cards text-decoration-underline text-decoration-color-success fst-italic"> Dumplings</h2>
+              <p class="letra-google">Este plato es oriundo de Cantón, China. Son trozos de masa, a veces rellenos,
+                que se cocinan en líquido, como agua, o como una masa dulce envuelta en
+                frutas, verduras, carnes o pescados, y que pueden ser horneados.
+                Se elaboran con harina, patata o pan y pueden incluir carne,
+                pescado o dulce, tanto en relleno como mezclados con la masa, y
+                pueden ser dulces o picantes.
+              </p>
+              <a href="error404.html" class="">Ver mas</a></p>
+            </div>
+            <div class="col-md-5">
+              <img src="https://t1.uc.ltmcdn.com/es/posts/9/5/9/como_hacer_dumplings_chinos_46959_orig.jpg"
+                class="bd-placeholder-img bd-placeholder-img-lg card-image img-fluid mx-auto h-100 w-75" alt="">
+
+            </div>
+          </div>
+          <!-- linea divisoria -->
+          <hr class="division-lineas">
+
+          <!-- Segunda tarjeta -->
+          <div class="row text-center">
+            <div class="col-md-7 order-md-2">
+              <h2 class="Title-text-cards text-decoration-underline fst-italic">Tortilla de patatas</h2>
+              <p class="letra-google">Se trata de uno de los platos más conocidos y emblemáticos de la cocina
+                española,
+                siendo un producto muy popular que se puede encontrar en casi cualquier bar o
+                restaurante del país.
+                A partir de la receta básica hay múltiples variantes,
+                tanto en el modo de cocinar los ingredientes como en el cuajado del huevo.
+                El ingrediente adicional más habitual es la cebolla, considerándose más popular
+                incluso la preparación con ella que la receta simple.</p>
+              <a href="error404.html">Ver mas</a>
+            </div>
+
+            <div class="col-md-5 order-md-1">
+              <img src="https://www.recetasderechupete.com/wp-content/uploads/2020/11/Tortilla-de-patatas-4.jpg"
+                class="bd-placeholder-img bd-placeholder-img-lg card-image img-fluid mx-auto" alt="">
+            </div>
+          </div>
+          <!-- linea divisoria -->
+          <hr class="division-lineas">
+
+          <!-- tercera tarjeta -->
+          <div class="row text-center">
+            <div class="col-md-7">
+              <h2 class="Title-text-cards text-decoration-underline fst-italic">La quiche Lorraine</h2>
+              <p class="letra-google"> Este plato es oriundo de Lorena, Francia. es un tipo de tarta salada que se
+                elabora
+                principalmente con una preparación de huevos batidos y crema de leche fresca y
+                espesa
+                (denominada migaine), mezclada con verduras cortadas, y/o productos cárnicos
+                (panceta, jamón en tacos),
+              </p>
+              <a href="error404.html" class="">Ver mas</a>
+            </div>
+            <div class="col-md-5">
+              <img src="https://deinduccion.online/wp-content/uploads/2020/10/mary-berry-vogue-2-25jun13-pr_bt.jpg"
+                class="bd-placeholder-img bd-placeholder-img-lg card-image img-fluid mx-auto h-100 w-75" alt="">
+            </div>
+          </div>
+
+          
+          <!-- linea divisoria -->
+          <hr class="division-lineas">
+          <!-- Cuarta tarjeta -->
+
+          <div class="row text-center ">
+            <div class="col-md-7 order-md-2">
+              <h2 class="Title-text-cards text-decoration-underline fst-italic">Ceviche peruano</h2>
+              <p class="letra-google"> En Perú, el ceviche ha sido declarado parte del "patrimonio nacional"
+                de dicho pasi y se ha declarado una fiesta en su honor.
+                El clásico ceviche peruano se compone de trozos de pescado crudo ,
+                marinados en jugo de lima o naranja amarga ( naranja agria ) recién
+                exprimidos , con rodajas de cebolla, chiles , sal y pimienta</p>
+              <a href="error404.html">Ver mas</a>
+
+
+
+            </div>
+
+            <div class="col-md-5 order-md-1">
+              <img src="https://www.196flavors.com/wp-content/uploads/2013/04/ceviche-4-FP.jpg"
+                class="bd-placeholder-img bd-placeholder-img-lg card-image img-fluid mx-auto h-75 w-100" alt="">
+            </div>
+          </div>
+
+          <!-- linea divisoria -->
+          <hr class="division-lineas">
+
+          <!-- quinta tarjeta -->
+
+          <div class="row text-center">
+            <div class="col-md-7">
+              <h2 class="Title-text-cards text-decoration-underline fst-italic">Tacos</h2>
+              <p class="letra-google"> Es un plato muy popular de México que consiste en una tortilla,
+                generalmente de maíz, que se dobla o se enrolla para contener dentro
+                diversos ingredientes y algún tipo de salsa.Es el antojo más representativo
+                de la cocina mexicana y se puede encontrar en todos los lugares de la república
+                y en restaurantes mexicanos por todo el mundo.
+              </p>
+              <a href="error404.html" class="">Ver mas</a>
+            </div>
+            <div class="col-md-5">
+              <img src="https://www.goya.com/media/7912/birria-tacos.jpg?quality=80"
+                class="bd-placeholder-img bd-placeholder-img-lg card-image img-fluid mx-auto h-100 w-75" alt="">
+
+            </div>
+          </div>
+
+
+
+          <!-- linea divisoria -->
+          <hr class="division-lineas">
+
+         
+
+
+
+
+        </div>
+        <!-- Aqui empieza la seccion de Nacionales -->
+        <div class="row mb-2 container-fluid ms-sm-3 ms-3">
+          <!-- boton Nacional -->
+          <div class="col-lg-12 ">
+            <div class="row  overflow-hidden flex-md-row mb-4 h-md-250" id="Nacional">
+              <div class="p-4 ">
+                <a href="error404.html"class="text-decoration-none text-dark text-center fst-italic">
+                  <h3 class="font-google fs-1" data-aos="fade-right" data-aos-duration="1000">Comidas Nacionales</h3>
+                </a>
+              </div>
+            </div>
+
+            <!-- Primera card -->
+            <div class="row">
+
+              <div class="col-lg-12">
+                <div
+                  class="row g-0  shadow-lg bg-gradient rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                  <div class="col-lg-6 col-12">
+                    <div class="p-4 position-static">
+                      <strong class="d-inline-block mb-2 text-primary">Nacional</strong>
+                      <h3 class="mb-0 fst-italic text-decoration-underline">Empanada</h3>
+                      <div class="mb-1 text-muted">24/08/2022</div>
+                      <p class="letra-google card-text mb-auto">
+                        Entre los desgustadores de empanadas de toda la Argentina se suele reconocer a los del norte del
+                        país como las más sabrosas y en particular destaca entre ellas la Empanada Tucumana.
+                        Entre sus características más importantes, que le dan el sabor único se encuentran las empanadas
+                        de carne, pollo y mondongo.
+                        La empanada Tucumana es principalmente muy jugosa gracias a que la carne es picada a cuchillo y
+                        al
+                        huevo duro que ayuda a retener los líquidos.
+                        Además de la carne o ave, lleva: cebolla de verdeo, pimentón y mucho comino y en algunos casos
+                        un
+                        chorrito de vinagre.</p>
+                      <a href="error404.html" class="stretched-link">Ver mas...</a>
+                    </div>
+                  </div>
+                  <div class="col-lg-6 col-sm-12">
+                    <div class=" p-5 mt-4">
+                      <img src="/image.jpg/emp..jpg"
+                        class="d-placeholder-img bd-placeholder-img-lg card-image mx-auto me-2 img-fluid" width="600"
+                        height="450" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Segunda card -->
+            <div class="row">
+              <div class="col-lg-12 ">
+                <div
+                  class="row g-0 shadow-lg bg-gradient rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                  <div class="col-lg-6 col-ms-12">
+                    <div class="d-flex p-4 mt-3">
+                      <img src="/image.jpg/locrro.jpg"
+                        class="d-placeholder-img bd-placeholder-img-lg card-image me-2 img-fluid" width="550"
+                        height="auto" />
+                    </div>
+                  </div>
+                  <div class="col-lg-6 col-12">
+                    <div class="p-4 position-static">
+                      <strong class="d-inline-block mb-2 text-primary">Nacional</strong>
+                      <h3 class="mb-0 fst-italic text-decoration-underline">Locro</h3>
+                      <div class="mb-1 text-muted">9/08/2022</div>
+                      <p class="letra-google card-text mb-auto me-5">
+                        El locro es una sopa espesa y abundante hecha de maíz, frijoles, papas y calabaza
+                        con
+                        algún tipo de carne y condimentada con comino, laurel, ajo, perejil y otras hierbas, aunque la
+                        receta puede cambiar según la tradición de cada provincia. Es uno de los platos
+                        nacionales por excelencia siendo la preparación obligada en invierno y se come
+                        tradicionalmente
+                        el
+                        25 de mayo y el 9 de julio que son fechas patrias en Argentina.
+                        Esta receta es de origen precolombino y proviene del norte del país.
+                        Tiene una influencia de otros pueblos andinos. Su consumo se ha extendido desde el Noroeste y
+                        Cuyo
+                        hacia el resto del país</p>
+                      <a href="error404.html" class="stretched-link">Ver mas...</a>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+
+            <!-- Tercera card  -->
+            <div class="row">
+
+              <div class="col-lg-12">
+                <div
+                  class="row g-0 shadow-lg bg-gradient rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                  <div class="col-lg-6 col-12">
+                    <div class="p-4 position-static">
+                      <strong class="d-inline-block mb-2 text-primary">Nacional</strong>
+                      <h3 class="mb-0 fst-italic text-decoration-underline">Milanesa</h3>
+                      <div class="mb-1 text-muted">1/08/2022</div>
+                      <p class="letra-google card-text mb-auto">
+                        La carne es un elemento fundamental en la gastronomía argentina y la milanesa es un ejemplo
+                        de
+                        esto. La milanesa es una rebanada delgada de carne rebozada en pan rallado y frita quedando
+                        dorada
+                        y crujiente por fuera y tierna por dentro. Este plato tiene sus raíces en Italia,
+                        pero con la migración sufrió pequeños cambios hasta convertirse en la milanesa argentina de
+                        la
+                        cual encontramos una gran variedad de recetas, siendo muy popular la milanesa napolitana,
+                        que
+                        está
+                        cubierta de salsa de tomate, queso y orégano la cual generalmente se acompaña con puré de
+                        papa o
+                        ensalada.
+                      </p>
+                      <a href="error404.html" class="stretched-link">Ver mas...</a>
+                    </div>
+                  </div>
+                  <div class="col-lg-6 col-sm-12">
+                    <div class="d-flex p-4 mt-3">
+                      <img src="/image.jpg/mila.jpg"
+                        class="d-placeholder-img bd-placeholder-img-lg card-image mx-auto me-2 img-fluid" width="450"
+                        height="350" />
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Cuarta card  -->
+            <div class="row">
+
+              <div class="col-lg-12">
+                <div
+                  class="row g-0 shadow-lg bg-gradient rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                  <div class="col-lg-6 col-sm-12">
+                    <div class="d-flex p-4 mt-4">
+                      <img src="/image.jpg/matambre arrollado.jpg"
+                        class="d-placeholder-img bd-placeholder-img-lg card-image img-fluid  me-2" width="500"
+                        height="500" />
+                    </div>
+                  </div>
+                  <div class="col-lg-6 col-12">
+                    <div class="p-4 position-static">
+                      <strong class="d-inline-block mb-2 text-primary">Nacional</strong>
+                      <h3 class="mb-0 fst-italic text-decoration-underline">Matambre Arrollado</h3>
+                      <div class="mb-1 text-muted">20/07/2022</div>
+                      <p class="letra-google card-text mb-auto">
+                        El matambre es un corte de carne típicamente argentino que se encuentra en el medio del
+                        cuero y
+                        el
+                        costillar de las vacas. Es una carne plana con grasa en una de las caras que puede
+                        consumirse
+                        asada o en varias formas, siendo el matambre arrollado la preparación más famosa, la cual se
+                        trata de rellenar la carne con la grasa hacia adentro con verduras, huevo duro, aceitunas y
+                        pimientos y luego doblarla sobre sí misma para llevarla su cocción que puede ser a la
+                        parrilla o
+                        al horno.</p>
+                      <a href="error404.html" class="stretched-link">Ver mas...</a>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+
+            <!-- Quinta card -->
+            <div class="row">
+
+              <div class="col-lg-12">
+                <div
+                  class="row g-0 shadow-lg bg-gradient rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+
+                  <div class="col-lg-6 col-sm-12">
+                    <div class="p-4 position-static">
+                      <strong class="d-inline-block mb-2 text-primary">Nacional</strong>
+                      <h3 class="mb-0 fst-italic text-decoration-underline">Alfajor</h3>
+                      <div class="mb-1 text-muted">10/07/2022</div>
+                      <p class="letra-google card-text mb-auto">
+                        Relleno con dulce de leche, cubierto con merengue, de chocolate, con frutas, de maicena.
+                        En
+                        cualquiera de sus versiones, esta delicia es considerado uno de los mejores dulces para
+                        personas
+                        de todas las edad y nacionalidades. Se trata de dos galletas redondas que están unidas por
+                        un
+                        relleno. Entre los rellenos más populares se encuentran el dulce de leche, el mousse de
+                        chocolate
+                        y el dulce de membrillo. En cuanto a las galletas o tapas del alfajor, pueden estar
+                        cubiertas de
+                        chocolate, azúcar en polvo o merengue, entre otras opciones.</p>
+                      <a href="error404.html" class="stretched-link">Ver mas...</a>
+                    </div>
+                  </div>
+                  <div class="col-lg-6 col-12">
+                    <div class="d-flex p-4 mt-3">
+                      <img src="/image.jpg/alfajormaicena.jpg"
+                        class="d-placeholder-img bd-placeholder-img-lg card-image img-fluid mx-auto me-2" width="500"
+                        height="500" />
+                    </div>
+
+                  </div>
+
+                </div>
+              </div>
+            </div>
+            <!-- boton Internacional -->
+          </div>
+        </div>
+        <!-- contacto -->
+        <div class="container" id="contact">
+          <h3 class="text-center contact-title" data-aos="fade-right" data-aos-duration="1000">Contact</h3>
+          <p class="text-center mb-5 contact-title"><em>Contactanos y deja tu comentario</em></p>
+          <div class="row  text-center">
+            <div class="col-md-4 fs-5">
+
+              <p class="letra-google">
+                <span class=""></span>Tucuman, Arg
+              </p>
+              <p class="letra-google">
+                <span class=""></span>Telefono: +005813345655
+
+              </p>
+              <p class="letra-google">
+                <span class=""></span>Email:
+                Buensabor-mail@mail.com
+              </p>
+            </div>
+            <div class="col-md-8 ">
+              <div class="row mb-4">
+                <div class="col-sm-6 form-group">
+                  <input class="form-control" id="name" name="name" placeholder="Nombre" type="text" />
+                </div>
+                <div class="col-sm-6 form-group">
+                  <input class="form-control" id="email" name="email" placeholder="Correo Electronico" type="email" />
+                </div>
+              </div>
+              <form class="form-comentarios d-flex justify-content-end flex-wrap">
+                <textarea class="" id="commentario" name="commentarios" placeholder="Commentarios">
+          </textarea>
+                <button class="letra-google btn" type="button">Comentar</button>
+              </form>
+              <!-- comentario -->
+
+              <div class="media">
+                <img src="/img/hombre1.jpg" width="64px" height="64px">
+                <div class="media-body">
+                  <p class="nombre">Jhone Pop</p> <span>7:30pm,hoy</span>
+                  <p class="letra-google comentario">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi minus
+                    consectetur dolorum porro ullam nesciunt quas similique magni reiciendis aspernatur alias cupiditate
+                    perspiciatis, in at? Porro aspernatur, veritatis necessitatibus in facilis atque minima repudiandae
+                    reiciendis ipsum aperiam soluta. Incidunt explicabo maxime cum, vitae perspiciatis debitis dolore
+                  </p>
+                  <div class="botones text-end">
+                    <a class="letra-google text-decoration-none" href="#">Responder</a>
+                    <a class="letra-google text-decoration-none" href="#">Editar</a>
+                    <a class="letra-google text-decoration-none" href="#">Borrar</a>
+                  </div>
+                  <!-- segundo comentario -->
+                  <div class="media">
+                    <img src="/img/mujer1.webp" width="64px" height="64px">
+                    <div class="media-body">
+                      <p class="letra-google nombre">Jhone Pop</p> <span class="letra-google">7:30pm,hoy</span>
+                      <p class="letra-google comentario">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi minus
+                        consectetur dolorum porro ullam nesciunt quas similique magni reiciendis aspernatur alias
+                        cupiditate perspiciatis, in at? Porro aspernatur, veritatis necessitatibus in facilis atque
+                        minima repudiandae reiciendis ipsum aperiam soluta. Incidunt explicabo maxime cum, vitae
+                        perspiciatis debitis dolore</p>
+                      <div class="botones text-end">
+                        <a class="letra-google text-decoration-none" href="#">Responder</a>
+                        <a class="letra-google text-decoration-none" href="#">Editar</a>
+                        <a class="letra-google text-decoration-none" href="#">Borrar</a>
+                      </div>
+                      <!-- tercer comentario -->
+                      <div class="media">
+                        <img
+                          src="/img/160444923-mujer-alegre-casual-con-anteojos-sonriendo-a-la-cámara-sobre-fondo-crema-primer-plano-de-mujer-joven.webp"
+                          width="64px" height="64px">
+                        <div class="media-body">
+                          <p class="letra-google nombre">Jhone Pop</p> <span>7:30pm,hoy</span>
+                          <p class="letra-google comentario">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi minus
+                            consectetur dolorum porro ullam nesciunt quas similique magni reiciendis aspernatur alias
+                            cupiditate perspiciatis, in at? Porro aspernatur, veritatis necessitatibus in facilis atque
+                            minima repudiandae reiciendis ipsum aperiam soluta. Incidunt explicabo maxime cum, vitae
+                            perspiciatis debitis dolore</p>
+                          <div class="botones text-end">
+                            <a class="letra-google text-decoration-none" href="#">Responder</a>
+                            <a class="letra-google text-decoration-none" href="#">Editar</a>
+                            <a class="letra-google text-decoration-none" href="#">Borrar</a>
+                          </div>
+
+
+                        </div>
+                      </div>
+
+
+
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+
+
+
+
+
+
+
+
+
+
+
+            </div>
+          </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+
+      <!-- este div contiene la columna de publicidades -->
+      <div class=" col-lg-2 d-lg-block d-none d-sm-none mt-2">
+        <!-- publicidad -->
+        <div class="shadow-lg bg-gradient">
+          <a href="https://business.facebook.com/pg/combofiestatucuman/posts/?ref=page_internal">
+            <img src="/img/119830258_2831712196929900_5798246913765121271_n.jpg" class="img-fluid p-4 ">
+          </a>
+          <a
+            href="https://www.smt.gob.ar/novedades/19960/la-municipalidad-lanzara-este-viernes-la-ruta-del-sanguche-de-milanesa-frente-a-la-casa-historica">
+            <img src="/img/milanesa.jpg" class="img-fluid p-4" alt="">
+          </a>
+          <a href="https://www.facebook.com/loshornosybrestaurante/">
+            <img
+              src="https://scontent.fjuj5-1.fna.fbcdn.net/v/t39.30808-6/293034966_433826681998647_5349702177370738964_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeGn6g-7beqWvuX2tI9csqEpEF9v_XCoplAQX2_9cKimUI_Z12y7_JnUAL3iEZvNYBnbQa50TWVm_Qx3ksy0vE6a&_nc_ohc=7br0WZaijcsAX_a89cX&_nc_ht=scontent.fjuj5-1.fna&oh=00_AT95L37PjEXsmjBPZk25wL5iXMVN6n75TTpLfdRa7Z3jYw&oe=63112053"
+              class="img-fluid p-4 " alt="">
+          </a>
+          <a href="https://historiadeljamon.com/">
+            <img src="/img/asado_publi.jpg" class="img-fluid p-4" alt="">
+          </a>
+
+          <a href="https://www.facebook.com/frankbeer.tuc">
+            <img src="/img/asado_frank.jpg " class="img-fluid p-4" alt="">
+
+          </a>
+        </div>
+        <!-- aqui termina la publicidad -->
+      </div>
+
+
+    </section>
+    <!-- Botones paginacion -->
+    <nav class="d-flex justify-content-center mt-5 mb-5 " aria-label="Page navigation example">
+      <ul class="pagination ">
+        <li class="page-item ">
+          <a class="page-link bg-dark" href="#" aria-label="Previous">
+            <span class="text-white" aria-hidden="true">&laquo;</span>
+          </a>
+        </li>
+
+        <li class="page-item "><a class="page-link bg-dark text-white" href="index.html">1</a></li>
+        <li class="page-item"><a class="page-link bg-dark text-white" href="login.html">2</a></li>
+        <li class="page-item"><a class="page-link bg-dark text-white" href="About Us.html">3</a></li>
+        <li class="page-item">
+          <a class="page-link bg-dark" href="galeriafotos.html" aria-label="Next">
+            <span class="text-white" aria-hidden="true">&raquo;</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+  </main>
+  <!-- ////////Aqui empieza el Footer///////// -->
+  <footer>
+    <div class="container-fluid" id="contacto-footer">
+      <div class="row p-5 pb-2 bg-black text-white">
+
+        <div class="col-xs-4 col-md-6 col-lg-4 text-center">
+          <p class="letra-google h5 mb-3">Direccion</p>
+          <div class="mb-2">
+            <a class="letra-google text-white text-decoration-none" href="#">Combate de Las Piedras 1603, T4000 San Miguel de
+              Tucumán</a>
+          </div>
+          <div class="">
+            <a class="text-white text-decoration-none text-center" href="#">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1780.1338143685061!2d-65.22400834127808!3d-26.831438799999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94225c6edbbeed13%3A0x4e176919d5ee4c99!2sLa%20Querencia%20Parrilla!5e0!3m2!1ses!2sar!4v1661759469479!5m2!1ses!2sar"
+                width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </a>
+          </div>
+
+        </div>
+        <div class="col-xs-4 col-md-6 col-lg-4  text-center">
+          <p class="letra-google h5 mb-3">Links</p>
+          <div class="mb-2">
+            <a class="letra-google text-white text-decoration-none" href="error404.html">Terminos & Condiciones</a>
+          </div>
+          <div class="mb-2">
+            <a class="letra-google text-white text-decoration-none" href="error404.html">Privacidad y Politica</a>
+          </div>
+        </div>
+        <div class="col-xs-4 col-md-6 col-lg-4  text-center">
+          <p class="letra-google h5 mb-3">Contacto</p>
+          <div class="mb-2">
+            <a class="text-white text-decoration-none" href="error404.html">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook"
+                viewBox="0 0 16 16">
+                <path
+                  d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+              </svg>
+              Facebook</a>
+          </div>
+          <div class="mb-2">
+            <a class="text-white text-decoration-none" href="error404.html">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram"
+                viewBox="0 0 16 16">
+                <path
+                  d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
+              </svg>
+
+              Instagram</a>
+          </div>
+          <div class="mb-2">
+            <a class="text-white text-decoration-none" href="error404.html">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter"
+                viewBox="0 0 16 16">
+                <path
+                  d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z" />
+              </svg>
+
+              Twitter</a>
+          </div>
+        </div>
+
+        <div class="col-xs-12 pt-4">
+          <p class="letra-google text-center text-white">Copyright - All rights reserved 2022 </p>
+        </div>
+
+
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- modal -->
+  <section>
+    <div class="modal fade" id="miModal" tabindex="-1" aria-hiden="true" aria-labelledby="modalTitle"
+      data-bs-backdrop="static">
+      <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="modalTitle">Suscribirse</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="close"></button>
+          </div>
+          <div class="modal-body">
+            <form class="row g-3 needs-validation">
+              <div class="col-md-6 was-validated">
+                <label for="inputtext4" class="form-label">Usuario</label>
+                <input type="text" class="form-control" id="inputtext4">
+                <div class="invalid-feedback">Porfavor Ingrese un usuario</div>
+              </div>
+              <div class="col-md-6 was-validated ">
+                <label for="inputPassword4" class="form-label">Password</label>
+                <input type="password" class="form-control" id="inputPassword4">
+                <div class="invalid-feedback">Porfavor Ingrese una Contraseña</div>
+
+              </div>
+              <div class="col-12 was-validated">
+                <label for="inputAddress" class="form-label">Email</label>
+                <input type="email" class="form-control" id="inputAddress" placeholder="Email">
+                <div class="invalid-feedback">Porfavor Ingrese un Email</div>
+
+              </div>
+              <div class="col-12 was-validated">
+                <label for="inputAddress2" class="form-label">Confirmar Email</label>
+                <input type="email" class="form-control" id="inputAddress2" placeholder="Confirmar Email">
+                <div class="invalid-feedback">Porfavor ingrese un Email</div>
+
+              </div>
+              <div class="col-md-6">
+                <label for="inputCity" class="form-label">Ciudad</label>
+                <input type="text" class="form-control" id="inputCity">
+              </div>
+              <div class="col-md-4">
+                <label for="inputState" class="form-label">Provincia</label>
+                <select id="inputState" class="form-select">
+                  <option selected>Localidad</option>
+                  <option>Tucuman</option>
+                  <option>Salta</option>
+                  <option>Jujuy</option>
+                  <option>Cordoba </option>
+
+                </select>
+              </div>
+              <div class="col-md-2">
+                <label for="inputZip" class="form-label">C-Postal</label>
+                <input type="text" class="form-control" id="inputZip">
+              </div>
+            </form>
+
+          </div>
+
+          <div class="modal-footer">
+
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+              data-bs-target="#modal3">Siguiente</button>
+
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    <!-- aqui empieza Modal terminos y condiciones  -->
+    <div class="modal fade" id="modal3" tabindex="-1" aria-hiden="true" aria-labelledby="modalTitle3"
+      data-bs-backdrop="static">
+      <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="modalTitle3">Terminos y Condiciones</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="close"></button>
+          </div>
+          <div class="modal-body">
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa itaque in illo quibusdam nam, quo
+              provident aperiam hic magnam! Consequatur rem quia aperiam deleniti illum mollitia in labore
+              assumenda ullam exercitationem placeat iusto, magni ducimus minima quod eveniet? Nostrum, provident
+              consequatur modi cupiditate, repudiandae commodi iusto omnis inventore voluptatem, ipsam expedita
+              quisquam soluta error enim iure aut iste! Neque atque soluta facere molestias illo quibusdam
+              consectetur expedita harum, debitis animi laudantium rem eligendi tempora vero magnam, cupiditate
+              molestiae doloremque quod ea corrupti provident. Distinctio ea officia, exercitationem adipisci ut
+              atque nemo veniam. Beatae illum modi tenetur ipsam autem commodi nostrum tempora perferendis cum
+              porro. Quisquam saepe, quia quis nesciunt ut dolorum nobis fuga quaerat dolore doloremque, ullam
+              reprehenderit ducimus ad? Quam dolore voluptate vel nesciunt! Quibusdam quo consequatur harum vel
+              delectus, suscipit dicta?
+              deserunt provident minima nisi aperiam saepe asperiores consectetur! Amet, vero. Neque consectetur,
+              dignissimos quaerat, iste quae blanditiis cum nam reprehenderit culpa tenetur dolor consequatur
+              iusto quod voluptatibus magni nisi eligendi. Officia quos ab necessitatibus iure odit culpa non
+              impedit quas rerum commodi neque enim, exercitationem perferendis reiciendis quo provident!
+              Laboriosam velit accusantium fugit minima eius! Ad, delectus doloribus amet blanditiis, odit rerum
+              voluptatum eaque ducimus sit saepe fuga harum enim recusandae beatae quis accusantium vel obcaecati
+              molestiae ratione modi. Quis beatae ipsum id aliquam fugit ratione sequi magnam, molestiae
+              voluptatem doloremque enim iusto labore saepe, nisi mollitia. Repellendus placeat officia doloremque
+              blanditiis, laborum aliquam quae! Sapiente nesciunt minima totam iusto odit? Corporis, provident
+              pariatur autem minima, iure consequatur quo vero ullam incidunt ratione, quaerat ut tempore beatae
+              similique quae minus iste ipsum. Nobis, quia perferendis. Eum pariatur suscipit eaque officia ipsa
+              aliquam! Provident, itaque temporibus quod ullam saepe voluptatibus! Ipsa, reiciendis et sequi
+              impedit aspernatur hic expedita nemo alias ratione blanditiis odit, dicta cumque! Corrupti, eius
+              architecto quasi fugiat soluta debitis voluptatem placeat, repellat tempore assumenda ullam vero
+              alias minus ratione, recusandae nesciunt dolorem iusto. Quisquam consectetur officiis eaque dicta
+              facilis quia veritatis ratione, minus obcaecati maxime eos totam modi? Nemo deleniti dicta
+              repellendus distinctio enim, voluptas odit, sed tempora quo dolorem veniam? Tenetur facilis eum
+              aliquam eveniet corporis. Earum repellendus neque nisi aut eos in esse deserunt, odit id saepe, sint
+              exercitationem repudiandae architecto aliquam sunt, deleniti molestias veritatis illo error? Quae
+              earum, ipsum minima autem corporis placeat quod molestias sunt fuga eveniet cumque quas assumenda
+              repellat soluta cum quaerat nihil blanditiis voluptates accusantium distinctio recusandae odio
+              optio. Molestiae ea velit esse quo assumenda fugit consequatur aperiam doloribus sunt natus officiis
+              deleniti aut eius rerum itaque, ipsum in modi pariatur quia corporis. Delectus quasi perferendis
+              beatae quisquam tenetur possimus! Error deserunt sint velit, ad modi repellat illum voluptatum
+              soluta, cum laudantium ipsa ducimus ab sunt neque ullam perferendis! Id delectus porro aspernatur
+              iusto expedita sed, accusamus ducimus voluptatem odit nihil sequi pariatur impedit architecto atque
+              laborum mollitia illo placeat molestias, repellendus quaerat illum officiis rem, dicta minus.
+              Facilis nesciunt rem quasi est ducimus ullam sint molestias beatae atque tempore sunt pariatur
+              dignissimos neque fugit repellat fuga debitis natus laborum possimus, autem perferendis error!
+              Aliquam vero quas voluptatibus dolorum, iusto facilis? Incidunt aperiam cupiditate beatae nobis
+              architecto quae dolores, repellat fuga mollitia sint. Aliquam, sed sapiente ratione harum at
+              dolorum. Possimus vero minus cum esse temporibus ex hic molestias ducimus, alias soluta nam repellat
+              culpa, aut accusantium adipisci blanditiis, velit earum dicta odit nulla. Eius iusto autem dolore,
+              obcaecati atque, non quas excepturi beatae laborum deserunt quis? Molestias eveniet eius corrupti,
+              voluptatem fuga provident harum quos.</p>
+
+            <input class="form-check-input" type="checkbox" id="gridCheck">
+            <label class="form-check-label">
+              aceptar terminos y condiciones
+            </label>
+
+
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-toggle="modal"
+              data-bs-target="#miModal">Volver</button>
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+              data-bs-target="#modal4">Siguiente</button>
+
+
+
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+    <div class="modal fade video-fondo" id="modal4" tabindex="-1" aria-hiden="true" aria-labelledby="modalTitle4"
+      data-bs-backdrop="static">
+
+
+      <div class="modal-dialog modal-dialog-centered ">
+        <div class="modal-content">
+          <video id="my-video" class="video" autoplay muted loop>
+            <source src="/videos/videofondo.mp4" type="video/mp4">
+          </video>
+
+          <div class="modal-header">
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="close"></button>
+
+          </div>
+          <div class="modal-body-susp text-center">
+            <img src="/logo.png" class="mx-3 " alt="">
+            <p class="fs-4"><strong>Bienvenido, gracias por suscribirse a <br> Buen Sabor </strong></p>
+          </div>
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- termina el modal -->
+
+
+
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+    crossorigin="anonymous"></script>
+
+  <!-- JavaScript AOS-->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
+
+
+
+
+
+
+</body>
+
+</html>
